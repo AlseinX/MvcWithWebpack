@@ -1,7 +1,12 @@
 import $ from "jquery"
 
-var entries: any = {};
+var entries: { [name: string]: ((elem: JQuery<HTMLElement>) => void) } = {};
 
-$(() => (entries[$("[entry]").attr("entry") as string] as () => undefined || ((x: string) => { }))());
+$(() => {
+    let elem = $("[entry]");
+    if (elem.length) {
+        entries[elem.attr("entry") as string](elem);
+    }
+});
 
 export default entries;
