@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.28705.295
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{B349ACE2-A5D8-45E5-BF25-C9A9EB763E16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcDemo.Host", "src\MvcDemo.Host\MvcDemo.Host.csproj", "{1DE25827-1077-4385-B283-A6DD1D47CE70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcDemo.Host", "src\MvcDemo.Host\MvcDemo.Host.csproj", "{1DE25827-1077-4385-B283-A6DD1D47CE70}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{53EC24F1-FE6C-45F0-B0DD-8A20125B0960}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{53EC24F1-FE6C-45F0-B0DD-8A20125B0960}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcDemo.UnitTest", "test\MvcDemo.UnitTest\MvcDemo.UnitTest.csproj", "{19B5E6F6-ABF9-4975-839C-A5209317D4D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcDemo.UnitTest", "test\MvcDemo.UnitTest\MvcDemo.UnitTest.csproj", "{19B5E6F6-ABF9-4975-839C-A5209317D4D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

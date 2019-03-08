@@ -21,9 +21,5 @@
         "webpack": "^4.29.6",
         "webpack-cli": "^3.2.3"
     },
-    "scripts": {
-        "build": "node node_modules/webpack-cli/bin/cli.js --config build/client/webpack.config.js --mode development",
-        "publish": "node node_modules/webpack-cli/bin/cli.js --config build/client/webpack.prod.js --mode production"
-    },
     "eslintConfig": {}
 }

@@ -11,7 +11,6 @@ module.exports = {
         bundle: ["@babel/polyfill", ...glob.sync(path.resolve(__dirname, '../../src/*/ClientApp/**/*.entry.@(t|j)s?(x)'))],
     },
     output: {
-        path: path.resolve(__dirname, '../../src/MvcDemo.Host/obj/webpack'),
         filename: "scripts/[name].js",
         chunkFilename: "scripts/[chunkhash].js"
     },
